@@ -1,0 +1,358 @@
+.main
+{
+    background-image:url(album.jpeg);
+    background-size: cover;
+    background-color: rgba(240, 31, 156, 0.6);
+    padding: 40px;
+    background-blend-mode: multiply;
+
+}
+
+html,body
+{
+    margin:0;
+    padding:0;
+
+}
+
+.nav ul{
+    margin: 15px;
+    font-size: larger;
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #6f716f;
+}
+
+.nav li
+{
+    display:inline;
+}
+
+.nav a
+{
+    text-decoration: none;
+    color:rgba(208, 249, 23, 0.949);
+    padding: 1em;
+}
+
+.nav a:hover
+{
+    background-color: rgb(226, 90, 11);
+}
+
+.name{
+    text-align: center;
+    margin: 0.5em;
+    font-size: 4em;
+    color:aliceblue;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content
+{
+    margin: 2em;
+}
+
+.container
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-head
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(20, 24, 230);
+ 
+    padding: 2.5px;
+}
+
+.foot
+{
+    background-color: rgba(255, 0, 166, 0.44);
+    color: rgb(202, 51, 51);
+    padding: .5em 0;
+    
+}
+
+.footer-head
+{
+    text-align: center;
+    color:red;
+}
+
+.main-footer-container
+{
+    display: flex;
+}
+
+.btn
+{
+    text-align: center;
+    vertical-align: center;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.btn-main
+{
+    text-align: center;
+    margin: .5em 15% 1em 15%;
+    color:white;
+    border: #6f716f;
+    background-color: rgb(52, 162, 193);
+    border-radius: 0;
+    font-weight: lighter;
+}
+
+.btn-main:hover
+{
+    background-color: rgb(225, 221, 215);
+}
+
+.tour-row
+{
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid black;
+    margin: 0.5em;
+}
+
+.tour-row:last-child
+{
+    border-bottom: none;
+}
+
+
+.tour-item
+{
+    display:inline-block;
+    padding-right: .5em;
+    
+}
+
+.tour-date
+{
+    color:rgb(255, 66, 9);
+    font-weight: bold;
+    width: 5%; 
+}
+
+.tour-city
+{
+    width: 20%;
+
+}
+
+.tour-place
+{
+    width:42%;
+}
+
+.tour-btn
+{
+    max-width:25%;
+}
+
+.about-image
+{
+    margin:5em;
+    padding-left: 10em;
+}
+
+.shop-item
+{
+    margin:20px;
+}
+
+.shop-item-title
+{
+    display: block;
+    text-align: centre;
+    width:100%;
+    color: rgb(49, 3, 3);
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+
+.store-head
+{
+    padding:0.8em;
+}
+
+.shop-item-image
+{
+    height:225px;
+    
+}
+
+.shop-item-details
+{
+    
+    display:flex;
+    align-items: center;
+    padding:10px;
+}
+
+.shop-item-price
+{
+    padding-right: 5em;
+    color: black;
+}
+
+.shop-item-button
+{
+    color:azure;
+    background-color: red;
+    border:none;
+    border-radius: .3em;
+    font-weight: bold;
+
+}
+
+.shop-item-button:hover
+{
+    background-color: rgb(221, 118, 15);
+}
+
+.items
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.merc-item-image
+{
+    height: 300px;
+    width: 150px;
+}
+
+.merc-item-price
+{
+    padding-right: 10px;
+    color: black;
+}
+
+.merc-items
+{
+    justify-content: space-around;
+}
+
+.cart-header
+{
+    font-weight:bold;
+    font-size:1em;
+    color:#333;
+    padding:5px;
+    margin-top: 10px;
+}
+
+.cart-column
+{
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 10em;
+    padding-bottom: 2px;
+    margin-top: 15px;
+}
+
+.cart-item
+{
+    width:45%;
+}
+
+.cart-price
+{
+    width:20%;
+}
+
+.cart-quantity
+{
+    width:22%;
+    display: inline-block;
+}
+
+.cart-item-title
+{
+    color:black;
+    margin-left: .5em;
+    font-size:1.2 em;
+}
+
+.btn-danger
+{
+    color:azure;
+    background-color: red;
+    border:none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover
+{
+    background-color: rgb(235, 118, 29);
+}
+
+.cart-quantity-input
+{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border:1px solid black;
+    padding:0;
+    text-align:center;
+    font-size:1em;
+    margin-right:25px;
+    
+}
+
+.cart-total
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart-total-title
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-right: 15px;
+}
+
+.cart-total-price
+{
+    color:#333;
+    font-size: 1.1em;
+}
+
+.btn-purchase
+{
+    display:block;
+    margin-top: 40px auto 80px auto;
+}
+
+.btn-primary
+{
+    color:azure;
+    background-color: red;
+    border:none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: rgb(235, 118, 29);
+}
